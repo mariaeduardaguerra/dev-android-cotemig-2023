@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    tools:context=".Tela02">
+
+    <Button
+        android:id="@+id/btnTela03"
+        android:layout_width="137dp"
+        android:layout_height="40dp"
+        android:backgroundTint="#401C81"
+        android:text="tela 03"
+        tools:layout_editor_absoluteX="137dp"
+        tools:layout_editor_absoluteY="398dp" />
+
+    <Button
+        android:id="@+id/btnTela01"
+        android:layout_width="137dp"
+        android:layout_height="40dp"
+        android:backgroundTint="#401C81"
+        android:text="tela 01"
+        tools:layout_editor_absoluteX="137dp"
+        tools:layout_editor_absoluteY="248dp" />
+
+    <Button
+        android:id="@+id/btnTela02"
+        android:layout_width="137dp"
+        android:layout_height="40dp"
+        android:backgroundTint="#401C81"
+        android:text="tela 02"
+        tools:layout_editor_absoluteX="137dp"
+        tools:layout_editor_absoluteY="322dp" />
+
+    <Button
+        android:id="@+id/btnVoltar"
+        android:layout_width="137dp"
+        android:layout_height="40dp"
+        android:backgroundTint="#401C81"
+        android:text="VOLTAR"
+        tools:layout_editor_absoluteX="137dp"
+        tools:layout_editor_absoluteY="510dp" />
+
+    <TextView
+        android:id="@+id/txtTitulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="olá, seja bem-vindo!"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="116dp"
+        tools:layout_editor_absoluteY="165dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
